@@ -12,7 +12,7 @@ icd9 = 'icd9_codes'
 # prediciton label column in the dataset
 target = 'mort_hosp'
 ```
-
+The above code is the first cell in the notebook.<br />
 Change the above code according to the dataset available.
 Rename the columns to the columns present in your dataset.
 Run the code.
