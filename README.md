@@ -30,6 +30,10 @@ With any new EHR data the model can be trained and tested. New embeddings can be
 
 ## Results
 
+## Steps to run the notebook
+
+1. Modify the below code according to the dataset columns present in the EHR data being used. The diagnosis codes should be in ICD9 format and in a single vector within pandas dataframe. Paste this modified code as the first cell of the notebook.
+
 ```python
 # columns to keep as input features in the dataset
 static_columns = ['gender', 'ethnicity', 'age', 'insurance', 'admission_type', 'first_careunit', 'icd9_codes']
@@ -40,7 +44,8 @@ icd9 = 'icd9_codes'
 # prediciton label column in the dataset
 target = 'mort_hosp'
 ```
-The above code is the first cell in the notebook.<br />
-Change the above code according to the dataset available.
-Rename the columns to the columns present in your dataset.
-Run the code.
+2. Load the dataset as a pandas dataframe keep the dataframe's name as d7. A sample using MIMIC-III Extract is provided in the notebook.
+3. Run the data transformation and cleansing steps after loading the dataframe.
+4. Divide the dataset into three datasets - train, validation and test. This can be done either on the basis of subject_ids as in MIMIC III dataset or based on the some ratio. Both ways are provided in the notebook. For the prior seperate files containing subject_id lists need to be present.
+5. Run the training part.
+6. Test the model on test dataset.
