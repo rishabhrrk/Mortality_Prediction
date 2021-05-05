@@ -29,7 +29,7 @@ With any new EHR data the model can be trained and tested. New embeddings can be
 ## Requirements
 
 ## Results
-F1 Score of 0.49 on test data set and with accuracy of 92% this model performed better than GRU-D based model for predicting ICU-Mortality
+F1 Score of 0.48 on test data set and with accuracy of 91% this model performed better than GRU-D based model for predicting ICU-Mortality
 1. Baseline Model Predicitons
 ![picture alt](https://github.com/rishabhrrk/Mortality_Prediction/blob/a00ad2ceb20a5e2b55513ebb6385fe6ed1daa13e/Baseline%20Predicitions.png "Baseline Model Predicitons")
 
