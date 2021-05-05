@@ -34,7 +34,8 @@ F1 Score of 0.49 on test data set and with accuracy of 92% this model performed 
 ![picture alt](https://github.com/rishabhrrk/Mortality_Prediction/blob/a00ad2ceb20a5e2b55513ebb6385fe6ed1daa13e/Baseline%20Predicitions.png "Baseline Model Predicitons")
 
 2. Proposed Model Prediction Score
-https://github.com/rishabhrrk/Mortality_Prediction/blob/a00ad2ceb20a5e2b55513ebb6385fe6ed1daa13e/Word2Vec%20Prediction.png
+![picture alt](https://github.com/rishabhrrk/Mortality_Prediction/blob/a00ad2ceb20a5e2b55513ebb6385fe6ed1daa13e/Word2Vec%20Prediction.png "Proposed Model Prediction Score")
+
 
 ## Steps to run the notebook
 
